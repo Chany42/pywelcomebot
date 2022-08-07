@@ -16,7 +16,7 @@ async def on_ready():
       
 
       print ('_________________________________________')
-      print ('Developer          : Ciri')
+      print ('Developer          : Chany')
       print ('Language           : discord.py = Python')
       print ('Version            : 0.0.1')
       print ('Durum              : Aktif')
@@ -58,7 +58,7 @@ async def on_member_remove(member):
     except Exception as e:
         raise e
 footer = 'Developed Ciri'
-'''@bot.command()  // KOMUT LOADER 
+@bot.command()  // KOMUT LOADER 
 async def load(ctx, extension):
     bot.load_extension(f'Cog.{extension}')
  
@@ -69,6 +69,6 @@ async def unload(ctx, extension):
 for filename in os.listdir("./Cog"):
     if filename.endswith('.py'):
         bot.load_extension(f'Cog.{filename}[:-3]')
-'''
+
 
 bot.run(BOT_TOKEN)
