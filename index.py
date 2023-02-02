@@ -57,7 +57,7 @@ async def on_member_remove(member):
             raise e
     except Exception as e:
         raise e
-footer = 'Developed Ciri'
+footer = 'Developed Chany'
 @bot.command()  // KOMUT LOADER 
 async def load(ctx, extension):
     bot.load_extension(f'Cog.{extension}')
