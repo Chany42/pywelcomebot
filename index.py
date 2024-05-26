@@ -60,8 +60,9 @@ async def on_member_remove(member):
 footer = 'Developed Chany'
 @bot.command()  // KOMUT LOADER 
 async def load(ctx, extension):
-    bot.load_extension(f'Cog.{extension}')
- 
+    bot.load_extension(f'Cog.{extension}') # bu çalışmazsa aşağıdaki yorum satırını sil
+ # # Cogları yükleme
+#bot.load_extension('cog.avatar')
 @bot.command()
 async def unload(ctx, extension):
     bot.unload_extension(f'Cog.{extension}')
