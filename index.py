@@ -24,7 +24,7 @@ async def on_ready():
       print(bot.user.id , ': İd İle Giriş Yapıldı')
       print ('_________________________________________')
 
-      await bot.change_presence(status=discord.Status.idle, activity=discord.Game('Developed Ciri'))
+      await bot.change_presence(status=discord.Status.idle, activity=discord.Game('Developed Chany'))
 
 @bot.event
 async def on_member_join(member):
